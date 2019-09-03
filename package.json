@@ -6,7 +6,7 @@
   "author": "trew",
   "license": "MIT",
   "scripts": {
-    "heroku-postbuild": "yarn add npm-run-all",
+    "heroku-postbuild": "yarn add npm-run-all live-server",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
